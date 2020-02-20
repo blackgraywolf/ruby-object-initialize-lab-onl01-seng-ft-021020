@@ -7,8 +7,7 @@ class Person
     @name = persons_name
   end
 
-  def name
-    @name
-  end
+ attr_reader :name
+  
   
 end
